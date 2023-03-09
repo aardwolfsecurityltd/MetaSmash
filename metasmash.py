@@ -1,6 +1,7 @@
 import sys
 import os
 import magic
+import pyfiglet
 
 result = pyfiglet.figlet_format("MetaSmash")
 print(result)
