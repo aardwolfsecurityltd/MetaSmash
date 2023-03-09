@@ -2,6 +2,11 @@ import sys
 import os
 import magic
 
+result = pyfiglet.figlet_format("MetaSmash")
+print(result)
+
+print('				   		   By Aardwolf Security\n\n')
+
 try:
     import exiftool
 except ImportError:
